@@ -5,7 +5,7 @@ This basically creates the actual resources on AWS as per the terraform modules 
 
 ## Folder Structure
 
-The folder terraform/terraform-http-example contains a simple Terraform module that deploys resources in [AWS](https://aws.amazon.com/) to demonstrate
+The folder [terraform/terraform-http-example](/terraform/terraform-http-example) contains a simple Terraform module that deploys resources in [AWS](https://aws.amazon.com/) to demonstrate
 how you can use Terratest to write automated tests for your AWS Terraform code. This module deploys an [EC2
 Instance](https://aws.amazon.com/ec2/) in the AWS region specified in the `aws_region` variable. The EC2 Instance runs
 a simple web server that listens for HTTP requests on the port specified by the `instance_port` variable and returns
